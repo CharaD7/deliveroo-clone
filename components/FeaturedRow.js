@@ -1,6 +1,7 @@
 import { View, Text, ScrollView } from 'react-native';
 import React from 'react';
 import { ArrowRightIcon }from 'react-native-heroicons/outline';
+import RestaurantCard from './RestaurantCard';
 
 const FeaturedRow = ({ id, title, description }) => {
   return (
@@ -21,6 +22,67 @@ const FeaturedRow = ({ id, title, description }) => {
         className="pt-4"
       >
         {/* RestaurantCards... */}
+        <RestaurantCard
+          id={123}
+          imgUrl="https://cdn.pixabay.com/photo/2017/07/31/04/11/tomato-2556426_960_720.jpg"
+          title="Yo! Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="123 Main St"
+          short_description="This is a test description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl="https://cdn.pixabay.com/photo/2017/07/31/04/11/tomato-2556426_960_720.jpg"
+          title="Yo! Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="123 Main St"
+          short_description="This is a test description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl="https://cdn.pixabay.com/photo/2017/07/31/04/11/tomato-2556426_960_720.jpg"
+          title="Yo! Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="123 Main St"
+          short_description="This is a test description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl="https://cdn.pixabay.com/photo/2017/07/31/04/11/tomato-2556426_960_720.jpg"
+          title="Yo! Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="123 Main St"
+          short_description="This is a test description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl="https://cdn.pixabay.com/photo/2017/07/31/04/11/tomato-2556426_960_720.jpg"
+          title="Yo! Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="123 Main St"
+          short_description="This is a test description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+
       </ScrollView>
     </View>
   )
